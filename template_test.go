@@ -22,12 +22,12 @@ func TestNew(t *testing.T) {
 <head>
   <meta charset="utf-8">
   <title>{{.Title}}</title>
-	<script type="text/x-template" id="paragraph">
+	<script type="text/go-template" id="paragraph">
 		<a href="/{{.}}">
 			{{.}}
 		</a>
 	</script>
-	<script type="text/x-template" id="heading">
+	<script type="text/go-template" id="heading">
 		<h1>{{.}}</h1>
 	</script>
 </head>
@@ -71,12 +71,12 @@ func TestNew(t *testing.T) {
 	<a href="/blog">
 		blog
 	</a>
-	<script type="text/x-template" id="paragraph">
+	<script type="text/go-template" id="paragraph">
 		<a href="/{{.}}">
 			{{.}}
 		</a>
 	</script>
-	<script type="text/x-template" id="heading">
+	<script type="text/go-template" id="heading">
 		<h1>{{.}}</h1>
 	</script>
 </body></html>`)

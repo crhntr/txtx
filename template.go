@@ -96,7 +96,7 @@ func findAndRemoveTemplates(xtmps map[string]*html.Node, node *html.Node) error 
 
 func hasAttTypeXTemplate(attr []html.Attribute) bool {
 	for _, at := range attr {
-		if at.Key == "type" && at.Val == "text/x-template" {
+		if at.Key == "type" && at.Val == "text/go-template" {
 			return true
 		}
 	}
