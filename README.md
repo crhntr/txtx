@@ -12,7 +12,8 @@ It is included to convey why you might want to copy some code from this package.
 ```html
 <html>
 <head>
-    <title>Some Page</title>
+	<title>Some Page</title>
+	<!-- Load/start wasm_exec.js and compiled wasm binary (for main included below)-->
 </head>
 
 <body>
