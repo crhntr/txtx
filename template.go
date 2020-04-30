@@ -46,7 +46,7 @@ func New(tmpl *template.Template, r io.Reader) (*Template, error) {
 			return nil, err
 		}
 
-		t, err := template.New(id).Parse(html.UnescapeString(buf.String()))
+		t, err := tmpl.New(id).Parse(html.UnescapeString(buf.String()))
 		if err != nil {
 			return nil, err
 		}
