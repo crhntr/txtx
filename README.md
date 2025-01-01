@@ -1,5 +1,7 @@
 # txtx
 
+**Archived**: Just use HTMX and render the templates on the server.
+
 This package parses a go html template.
 Finds "script" elements with the tag "text/go-template".
 Provides a string of type template.HTML so that the template can be used again client side.
